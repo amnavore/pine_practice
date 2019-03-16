@@ -21,3 +21,12 @@ puts self
   name = gets.chomp
   puts 'Did you know there are ' + name.length.to_s + ' characters'
   puts 'in your name, ' + name + '?'
+
+  #Changing case of strings
+  letters = 'aAbBcCdDeE'
+  puts letters.upcase
+  puts letters.downcase
+  puts letters.swapcase
+  puts letters.capitalize
+  puts 'a'.capitalize
+  puts letters
