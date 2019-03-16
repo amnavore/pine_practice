@@ -13,3 +13,18 @@
   #Absolute value
   puts (5-2).abs
   puts (2-5).abs
+
+#Random Numbers
+puts rand
+puts rand
+puts rand
+puts(rand(100))
+puts(rand(100))
+puts(rand(100))
+puts(rand(1))
+puts(rand(1))
+puts(rand(1))
+puts(rand(999999999999999999999999999))
+puts 'The weatherman says there is a'
+puts rand(101).to_s + '% chance of rain,'
+puts 'but you can never trust a weatherman.'
