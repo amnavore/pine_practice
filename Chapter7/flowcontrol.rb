@@ -83,3 +83,24 @@ puts 'Hello, ' + name + '.'
 if name == 'Amna' || name == 'Jake'
   puts 'What a lovely name!'
 end
+
+#Other logical operators
+i_am_amna = true
+i_am_purple = false
+i_like_soda = true
+i_eat_rocks = false
+#And operator
+puts i_am_amna && i_like_soda
+puts i_like_soda && i_eat_rocks
+puts i_am_purple && i_like_soda
+puts i_am_purple && i_eat_rocks
+puts
+#Or operator
+puts i_am_amna || i_like_soda
+puts i_like_soda || i_eat_rocks
+puts i_am_purple || i_like_soda
+puts i_am_purple || i_eat_rocks
+puts
+#Not operator
+puts !i_am_purple
+puts !i_am_amna
