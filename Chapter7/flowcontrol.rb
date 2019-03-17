@@ -47,3 +47,31 @@ else
     puts 'GET OUT!'
   end
 end
+
+#Looping
+input = ''
+while input != 'bye'
+  puts input
+  input = gets.chomp
+end
+puts 'Come again soon!'
+
+#Looping forever
+while 'Spike' > 'Angel'
+  input = gets.chomp
+  puts input
+  if input == 'bye'
+    break #Breaks the loop
+  end
+end
+puts 'Come again soon!'
+
+#Using true object
+while true
+  input = gets.chomp
+  puts input
+  if input == 'bye'
+    break
+  end
+end
+puts 'Come again soon!'
