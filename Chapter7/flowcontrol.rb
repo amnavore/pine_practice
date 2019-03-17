@@ -11,3 +11,20 @@ puts 'bug lady' < 'Xander'
 puts 'bug lady'.downcase < 'Xander'.downcase
 puts 2 < 10
 puts '2' < '10' #Returns false because 0 character comes after 2
+
+#Branching
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+if name == 'Amna'
+  puts 'What a lovely name!'
+end
+#Using else
+puts 'I am a fortune teller. Tell me your name:'
+name = gets.chomp
+if name == 'Amna'
+  puts 'I see great things in your future.'
+else
+  puts 'Your future is...oh my! Look at the time!'
+  puts 'I really have to go, sorry!'
+end
