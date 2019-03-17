@@ -75,3 +75,11 @@ while true
   end
 end
 puts 'Come again soon!'
+
+#Reprogramming first program for more names
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+if name == 'Amna' || name == 'Jake'
+  puts 'What a lovely name!'
+end
