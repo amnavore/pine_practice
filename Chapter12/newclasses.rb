@@ -28,3 +28,13 @@ end
 dict_hash.each do |c_word, word|
   puts "#{c_word}: #{word}"
 end
+
+#Ranges
+letters = 'a'..'c' #Literal range
+puts(['a','b','c'] == letters.to_a) #Converting range to array
+('A'..'Z').each do |letter| #Iterating over a range
+  print letter
+end
+puts
+
+#Stringy superpowers
