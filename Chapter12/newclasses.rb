@@ -8,5 +8,23 @@ puts time2
 puts Time.local(2000, 1, 1) #Y2K
 puts Time.local(1996, 9, 20) #My birthday
 
-#Using GMT
-puts Time.gm(1955, 11, 5)
+#Hash class (Can use any object to refer to a slot, not just numbers)
+dict_array = [] #array literal, like Array.new
+dict_hash = {} #hash literal, like Hash.new
+
+dict_array[0] = 'candle'
+dict_array[1] = 'glasses'
+dict_array[2] = 'truck'
+dict_array[3] = 'Alicia'
+dict_hash['shia-a'] = 'candle'
+dict_hash['shaya'] = 'glasses'
+dict_hash['shasha'] = 'truck'
+dict_hash['sh-sha'] = 'Alicia'
+
+dict_array.each do |word|
+  puts word
+end
+
+dict_hash.each do |c_word, word|
+  puts "#{c_word}: #{word}"
+end
